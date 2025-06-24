@@ -14,7 +14,7 @@ This project was created to investigate (and MAYBE reproduce) a specific bug rel
 
 When running the tests, we _expect_ to see the tests run such that the polling does not negatively effect the performance of the tests. For example, running the `useFetchByPolling.component.test.js` test should yield a result like the following:
 
-```
+```bash
 ➜  test-react-hook-with-polling git:(master) ✗ npm test src/hooks/__tests__/useFetchByPolling.component.test.js
 
 > test-hook@1.0.0 test
